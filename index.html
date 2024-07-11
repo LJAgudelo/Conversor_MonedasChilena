@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Modena</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="conversor">
+        <h2>Pesos CLP</h2>
+        <input type="number" value="0" id="valor">
+        <h4>Moneda a convertir:</h4>
+        <select id="monedas">
+            <option value="dolar">Dolar</option>
+            <option value="euro">Euro</option>
+            <option value="bitcoin">bitcoin</option>
+            <option value="desplegar" selected>Seleccione moneda</option>
+        </select>
+        <div>
+
+        </div>
+        <button id="enviar">Buscar</button>
+        <p id="resultado">El resultado es:<span></span></p>
+    </div>
+
+    <hr>
+
+    <div class="grafico">
+        <h2>Ultimos 10 días del valor de la moneda</h2>
+        <div class="grafica"></div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>

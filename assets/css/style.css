@@ -1,0 +1,32 @@
+body {
+    background: #2b3036;
+    text-align: center;   
+}
+.conversor{
+    border-radius:5px;
+    background: #80868d;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 300px; 
+    width: 400px; 
+    margin: 0 auto;
+    padding: 2px;
+}
+
+#enviar{
+    background: #35D0F2;
+    border-radius: 5px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 30px; 
+    width: 100px; 
+
+}
+
+.grafico{
+    background: white;
+}
